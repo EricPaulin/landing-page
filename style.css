@@ -50,11 +50,11 @@ button {
     align-items: center;
     background-color: #1F2937;
     color: aliceblue;
-    padding: 70px;
+    padding: 10px;
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     margin: 0%;
 }
