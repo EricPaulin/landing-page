@@ -7,7 +7,7 @@ a {
     color: aliceblue;
 }
 
-button {
+.button {
     border: none;
     border-radius: 8px;
     padding: 10px 10px;
@@ -43,6 +43,7 @@ button {
 
 .links {
     font-size: large;
+    word-spacing: 25px;
 }
 
 /* Hero */
@@ -76,8 +77,8 @@ h1 {
 }
 
 .banner-image {
-    width: 130%;
-    height: 110%;
+    width: 150%;
+    height: 130%;
     border-radius: 10px;
 }
 
@@ -121,4 +122,75 @@ h2 {
     border-width: 5px;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+/* Quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 270px;
+    width: auto;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 10px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.sign-up-container {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+h5 {
+    font-size: large;
+    margin: 0%;
+}
+
+.button2 {
+    padding: 10px 10px;
+    color: aliceblue;
+    background: #3882F6;
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 25px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color:#E5E7EB;
+    background-color: #1F2937;
+    padding: 20px;
 }
